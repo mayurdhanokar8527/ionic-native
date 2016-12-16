@@ -155,14 +155,14 @@ export class SocialSharing {
 
   /**
    * Share via SMS
-   * @param messge {string} message to send
+   * @param message {string} message to send
    * @param phoneNumber {string} Number or multiple numbers seperated by commas
    * @returns {Promise<any>}
    */
   @Cordova({
     platforms: ['iOS', 'Android']
   })
-  static shareViaSMS(messge: string, phoneNumber: string): Promise<any> { return; }
+  static shareViaSMS(message: string, phoneNumber: string): Promise<any> { return; }
 
   /**
    * Checks if you can share via email
